@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Palantrix - AI Video Interviews",
   "colors": {
     "primary": "#542694",
@@ -28,7 +28,62 @@
         ]
       },
       {
-        "tab": "AFeatures",
+        "tab": "Candidates",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Companies",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Educators",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Plans",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Compliance",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQ",
         "groups": [
           {
             "group": "Features",
