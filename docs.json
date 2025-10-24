@@ -42,9 +42,9 @@
         "tab": "Companies",
         "groups": [
           {
-            "group": "Features",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "companies/introduction"
             ]
           }
         ]
