@@ -31,9 +31,9 @@
         "tab": "Candidates",
         "groups": [
           {
-            "group": "Features",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "candidates/introduction"
             ]
           }
         ]
