@@ -53,9 +53,9 @@
         "tab": "Educators",
         "groups": [
           {
-            "group": "Features",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "educator/introduction"
             ]
           }
         ]
@@ -64,9 +64,9 @@
         "tab": "Plans",
         "groups": [
           {
-            "group": "Features",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "plans/introduction"
             ]
           }
         ]
@@ -75,9 +75,9 @@
         "tab": "Compliance",
         "groups": [
           {
-            "group": "Features",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "compliance/introduction"
             ]
           }
         ]
@@ -86,9 +86,9 @@
         "tab": "FAQ",
         "groups": [
           {
-            "group": "Features",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "faq/introduction"
             ]
           }
         ]
