@@ -14,15 +14,32 @@
         "tab": "Introduction",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Welcome",
             "pages": [
-              "index",
-              "quickstart"
+              "index"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "How To - Candidates",
             "pages": [
+              "Create your Account",
+              "Set up your Profile",
+              "Mock Interview",
+              "Create Interview Plans",
+              "Apply for a Job",
+              "Certification"
+            ]
+          },
+          {
+            "group": "How To - Companies",
+            "pages": [
+              "Create your Account",
+              "Set up your Profile",
+              "Post a Job",
+              "Palantrix Recruitment Pipeline",
+              "Follow-Up Video Interviews",
+              "Candidate Comms",
+              "Team Management"
             ]
           }
         ]
