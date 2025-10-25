@@ -21,8 +21,9 @@
           },
           {
             "group": "How To - Candidates",
+            "icon": "user-check",
             "pages": [
-              "icon: book,Create your Account",
+              "Create your Account",
               "Set up your Profile",
               "Mock Interviews",
               "Create Interview Plans",
@@ -32,6 +33,7 @@
           },
           {
             "group": "How To - Companies",
+            "icon": "user-check",
             "pages": [
               "Create your Account",
               "Set up your Profile",
