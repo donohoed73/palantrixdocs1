@@ -22,9 +22,9 @@
           {
             "group": "How To - Candidates",
             "pages": [
-              "Create your Account",
+              "icon: book,Create your Account",
               "Set up your Profile",
-              "Mock Interview",
+              "Mock Interviews",
               "Create Interview Plans",
               "Apply for a Job",
               "Certification"
