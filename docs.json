@@ -111,6 +111,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "changelog/introduction"
+            ]
+          }
+        ]
       }
     ],
     "global": {
