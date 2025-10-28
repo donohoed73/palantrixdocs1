@@ -1,4 +1,84 @@
 ---
-title: "New file"
-description: "Description of your new file."
+title: "Compliance"
+description: "Palantrix is an AI-powered video interview platform designed to streamline recruitment screening while prioritising fairness, privacy, and ethical AI use. We assist hiring companies by generating tailored interview questions based on job specifications, evaluating candidate responses against company-defined criteria, and providing insightful summaries. Our platform focuses on mock and real video submissions, ensuring a supportive experience for candidates and actionable data for companies. Importantly, Palantrix serves solely as a screening tool—final hiring decisions always rest with the company, with human involvement required in every evaluation process."
 ---
+
+### EU AI Act
+
+The EU AI Act, formally approved by the European Parliament in March 2024, is the world's first comprehensive regulatory framework for artificial intelligence that significantly impacts recruitment practices. Under the Act's risk-based classification system, AI applications used in employment—including systems for recruiting, evaluating applicants, and making promotion decisions—are categorized as "high-risk." This designation requires recruitment AI tools to comply with strict standards for quality, transparency, human oversight, and safety. Organizations using AI-powered recruitment technologies such as applicant tracking systems that automatically rank candidates, video interview platforms analyzing candidate responses, or chatbots handling initial screenings must ensure these systems are designed to avoid bias and discrimination, maintain transparency about AI usage, and preserve human judgment in decision-making.
+
+### What does Palantrix do to comply
+
+To enhance fairness in AI video interviews for recruitment, the following techniques incorporate advanced statistical and algorithmic methods, such as Iterative Predictor Removal (IPR) to progressively eliminate biased variables and Multipenalty Optimization (MPO) to balance accuracy with fairness metrics in model training. These are grounded in scientific principles from machine learning fairness literature (e.g., disparate impact theory and constrained optimization), ensuring compliance with the EU AI Act's risk-based approach.
+
+<Steps>
+  <Step title="Iterative Predictor Removal (IPR) for Feature Selection" icon="arrow-up-left-from-circle">
+    <Tabs>
+      <Tab title="Description">
+        Systematically remove or downweight features (e.g., voice pitch or facial expressions) that correlate with protected attributes (gender, race) through iterative testing. Start with a full model, measure bias using metrics like demographic parity, and remove predictors one by one until bias falls below a threshold (e.g., 0.8 ratio). 
+      </Tab>
+      <Tab title="Scientific Basis">
+        Based on recursive feature elimination (RFE) in machine learning, IPR reduces disparate impact by minimising indirect discrimination. In video interviews, apply to audio/visual data to focus on content (e.g., response structure) over proxies for demographics. 
+      </Tab>
+      <Tab title="Implementation">
+        Use Python libraries like scikit-learn for RFE, validating with cross-validation on diverse datasets. This ensures the AI scores responses on merit, not biased signals.
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Multipenalty Optimization (MPO) in Model Training" icon="robot">
+    <Tabs>
+      <Tab title="Description">
+        Optimise AI models with multiple penalties in the loss function, penalising both accuracy errors and bias (e.g., add terms for equalized odds or group fairness). Use gradient descent to minimise a combined loss: L = L_accuracy + λ1 _L_bias + λ2 _  L_fairness, tuning λ via grid search. 
+      </Tab>
+      <Tab title="Scientific Basis">
+        Draws from constrained optimization in fair ML (e.g., Lagrangian multipliers), balancing utility and equity. For video interviews, MPO penalises models that disproportionately score low on certain demographics, promoting equitable outcomes. 
+      </Tab>
+      <Tab title="Implementation">
+        Employ frameworks like TensorFlow with custom loss functions; test on balanced datasets to achieve \<5% bias variance across groups.
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Adversarial Debiasing with Human Oversight" icon="people-group">
+    <Tabs>
+      <Tab title="Description">
+        Train AI with an adversary network that tries to predict protected attributes from model outputs, forcing the main model to produce bias-free predictions. Combine with human review loops for 10-20% of outputs to validate. 
+      </Tab>
+      <Tab title="Scientific Basis">
+        Rooted in adversarial learning (GANs), this technique decorrelates predictions from biases, as per studies in fair representation learning. In recruitment, it neutralizes video cues like accents or expressions that could bias scores.
+      </Tab>
+      <Tab title="Implementation">
+        Use PyTorch for adversarial setups; integrate IPR to pre-filter features, ensuring \<0.1 correlation with protected attributes.
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Diverse Dataset Augmentation and Synthetic Data Generation" icon="database">
+    <Tabs>
+      <Tab title="Description">
+        Augment training data with synthetic videos (e.g., via GANs or SMOTE for imbalanced classes) to include underrepresented demographics, then apply MPO to fine-tune. Validate with fairness metrics like AUC across subgroups. 
+      </Tab>
+      <Tab title="Scientific Basis">
+        Addresses data imbalance using oversampling techniques, reducing algorithmic bias as shown in fairness-aware ML research. For AI interviews, this ensures models generalize across cultural communication styles. 
+      </Tab>
+      <Tab title="Implementation">
+        Generate data with tools like Stable Diffusion for videos; use IPR to remove biased synthetic artifacts, achieving \>95% fairness accuracy.
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Post-Hoc Fairness Calibration with Continuous Auditing" icon="file-contract">
+    <Tabs>
+      <Tab title="Description">
+        After inference, calibrate scores using techniques like Platt scaling to equalize error rates across groups, followed by automated audits (e.g., quarterly bias checks with A/B testing). Incorporate feedback loops for model retraining. 
+      </Tab>
+      <Tab title="Scientific Basis">
+        Based on calibration methods in probabilistic ML, ensuring predictions are unbiased in distribution (e.g., via Kolmogorov-Smirnov tests). In video recruitment, this corrects for any residual biases in real-time evaluations. 
+      </Tab>
+      <Tab title="Implementation">
+        Integrate with scikit-learn pipelines; combine with MPO for end-to-end fairness, logging audits for EU AI Act transparency.
+      </Tab>
+    </Tabs>
+  </Step>
+</Steps>
+
+These techniques provide a rigorous, scientific framework for bias-free AI video interviews, emphasizing predictability and equity in recruitment. IPR & MPO form part of the Palantrix continuous assessment model and based on increased data evaluations we will be expanding to the other techniques.
+
+Palantrix will be applying an iterative approach to continuously evaluating our foundation models. Human oversight is critical in this evaluation and we will continue to monitor them and in future publish our audited findings to ensure transparency.
