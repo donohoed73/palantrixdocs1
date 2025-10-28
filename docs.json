@@ -23,7 +23,7 @@
             "group": "How To - Candidates",
             "icon": "user-check",
             "pages": [
-              "Create your Account",
+              "how/create-account",
               "Set up your Profile",
               "Mock Interviews",
               "Create Interview Plans",
