@@ -23,12 +23,12 @@
             "group": "How To - Candidates",
             "icon": "user-check",
             "pages": [
-              "how/create-account",
-              "Set up your Profile",
-              "Mock Interviews",
-              "Create Interview Plans",
-              "Apply for a Job",
-              "Certification"
+              "how/candidates/create-account",
+              "how/candidates/profile-setup",
+              "how/candidates/mock-interviews",
+              "how/candidates/interview-plans",
+              "how/candidates/job-apply",
+              "how/candidates/cert"
             ]
           },
           {
