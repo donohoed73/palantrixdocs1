@@ -102,17 +102,6 @@
         ]
       },
       {
-        "tab": "FAQ",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "faq/introduction"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Changelog",
         "groups": [
           {
