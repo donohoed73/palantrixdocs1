@@ -35,13 +35,13 @@
             "group": "How To - Companies",
             "icon": "user-check",
             "pages": [
-              "Create your Account",
-              "Set up your Profile",
-              "Post a Job",
-              "Palantrix Recruitment Pipeline",
-              "Follow-Up Video Interviews",
-              "Candidate Comms",
-              "Team Management"
+              "how/companies/create-account",
+              "how/companies/profile-setup",
+              "how/companies/job-post",
+              "how/companies/pipeline",
+              "how/companies/follow-up",
+              "how/companies/comms",
+              "how/companies/team"
             ]
           }
         ]
