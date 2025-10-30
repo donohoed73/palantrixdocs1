@@ -28,7 +28,7 @@ To enhance fairness in AI video interviews for recruitment, the following techni
   <Step title="Multipenalty Optimization (MPO) in Model Training" icon="robot">
     <Tabs>
       <Tab title="Description">
-        Optimise AI models with multiple penalties in the loss function, penalising both accuracy errors and bias (e.g., add terms for equalized odds or group fairness). Use gradient descent to minimise a combined loss: L = L_accuracy + λ1 _L_bias + λ2 _  L_fairness, tuning λ via grid search. 
+        Optimise AI models with multiple penalties in the loss function, penalising both accuracy errors and bias (e.g., add terms for equalized odds or group fairness). Use gradient descent to minimise a combined loss: L = L_accuracy + λ1 \_L_bias + λ2 \_  L_fairness, tuning λ via grid search. 
       </Tab>
       <Tab title="Scientific Basis">
         Draws from constrained optimization in fair ML (e.g., Lagrangian multipliers), balancing utility and equity. For video interviews, MPO penalises models that disproportionately score low on certain demographics, promoting equitable outcomes. 
@@ -82,3 +82,9 @@ To enhance fairness in AI video interviews for recruitment, the following techni
 These techniques provide a rigorous, scientific framework for bias-free AI video interviews, emphasizing predictability and equity in recruitment. IPR & MPO form part of the Palantrix continuous assessment model and based on increased data evaluations we will be expanding to the other techniques.
 
 Palantrix will be applying an iterative approach to continuously evaluating our foundation models. Human oversight is critical in this evaluation and we will continue to monitor them and in future publish our audited findings to ensure transparency.
+
+### Regular Human Reviews
+
+Palantrix will conduct montly reviews of the evaluations, reviewing the AI performance against a number of indicators. For example cross referenceing answers across genders to see if any disparaity exists based on similar type answers. We will also be utilising the RAG  (**Retrieval-Augmented Generation**) framework. 
+
+RAG is an AI framework that combines information retrieval with generative AI to produce more accurate, up-to-date, and contextually relevant responses. All these reviews will be human led with human oversight.
