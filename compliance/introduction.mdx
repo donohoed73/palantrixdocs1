@@ -15,7 +15,7 @@ To enhance fairness in AI video interviews for recruitment, the following techni
   <Step title="Iterative Predictor Removal (IPR) for Feature Selection" icon="arrow-up-left-from-circle">
     <Tabs>
       <Tab title="Description">
-        Systematically remove or downweight features (e.g., voice pitch or facial expressions) that correlate with protected attributes (gender, race) through iterative testing. Start with a full model, measure bias using metrics like demographic parity, and remove predictors one by one until bias falls below a threshold (e.g., 0.8 ratio). 
+        Systematically remove or downweight features (e.g., voice pitch) that correlate with protected attributes (gender, race) through iterative testing. Start with a full model, measure bias using metrics like demographic parity, and remove predictors one by one until bias falls below a threshold (e.g., 0.8 ratio). 
       </Tab>
       <Tab title="Scientific Basis">
         Based on recursive feature elimination (RFE) in machine learning, IPR reduces disparate impact by minimising indirect discrimination. In video interviews, apply to audio/visual data to focus on content (e.g., response structure) over proxies for demographics. 
@@ -85,6 +85,6 @@ Palantrix will be applying an iterative approach to continuously evaluating our 
 
 ### Regular Human Reviews
 
-Palantrix will conduct montly reviews of the evaluations, reviewing the AI performance against a number of indicators. For example cross referenceing answers across genders to see if any disparaity exists based on similar type answers. We will also be utilising the RAG  (**Retrieval-Augmented Generation**) framework. 
+Palantrix will conduct montly reviews of the evaluations, reviewing the AI performance against a number of indicators. For example cross referenceing answers across genders to see if any disparaity exists based on similar type answers. We will also be utilising the RAG  (**Retrieval-Augmented Generation**) framework.
 
 RAG is an AI framework that combines information retrieval with generative AI to produce more accurate, up-to-date, and contextually relevant responses. All these reviews will be human led with human oversight.
