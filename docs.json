@@ -82,13 +82,13 @@
             "group": "How To - Educators",
             "icon": "user-check",
             "pages": [
-              "how/candidates/create-account",
-              "how/candidates/profile-setup",
-              "how/candidates/mock-interviews",
-              "how/candidates/interview-plans",
-              "how/candidates/job-apply",
-              "how/candidates/cert",
-              "how/candidates/hire-hub"
+              "how/educators/create-account",
+              "how/educators/profile-setup",
+              "how/educators/mock-interviews",
+              "how/educators/interview-plans",
+              "how/educators/job-apply",
+              "how/educators/cert",
+              "how/educators/hire-hub"
             ]
           }
         ]
