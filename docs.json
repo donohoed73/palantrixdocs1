@@ -77,6 +77,19 @@
             "pages": [
               "educators/introduction"
             ]
+          },
+          {
+            "group": "How To - Educators",
+            "icon": "user-check",
+            "pages": [
+              "how/candidates/create-account",
+              "how/candidates/profile-setup",
+              "how/candidates/mock-interviews",
+              "how/candidates/interview-plans",
+              "how/candidates/job-apply",
+              "how/candidates/cert",
+              "how/candidates/hire-hub"
+            ]
           }
         ]
       },
