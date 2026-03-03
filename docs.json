@@ -82,7 +82,8 @@
             "group": "How To - Educators",
             "icon": "user-check",
             "pages": [
-              "how/educators/create-account"
+              "how/educators/create-account",
+              "how/educators/create-classrooms"
             ]
           }
         ]
