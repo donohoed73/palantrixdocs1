@@ -44,6 +44,13 @@
               "how/companies/comms",
               "how/companies/team"
             ]
+          },
+          {
+            "group": "How To - Educators",
+            "icon": "user-check",
+            "pages": [
+              "create-your-classrooms"
+            ]
           }
         ]
       },
@@ -121,11 +128,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.png",
