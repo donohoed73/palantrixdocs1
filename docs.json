@@ -40,9 +40,8 @@
               "how/companies/profile-setup",
               "how/companies/client-digital-twin",
               "how/companies/conversations",
-              "how/companies/follow-up",
-              "how/companies/comms",
-              "how/companies/team"
+              "how/companies/team-chemistry",
+              "how/companies/feedback-loop"
             ]
           },
           {
@@ -55,7 +54,7 @@
         ]
       },
       {
-        "tab": "Candidates",
+        "tab": "Employees",
         "groups": [
           {
             "group": "Overview",
