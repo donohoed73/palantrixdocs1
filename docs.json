@@ -41,28 +41,6 @@
         ]
       },
       {
-        "tab": "Employees",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "candidates/introduction"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Companies",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "companies/introduction"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Educators",
         "groups": [
           {
